@@ -1,0 +1,8 @@
+# robots.txt for lokiesq.law
+# Tells search engines what to crawl and where to find the sitemap
+
+User-agent: *
+Allow: /
+Disallow: /ads/
+
+Sitemap: https://lokiesq.law/sitemap.xml
