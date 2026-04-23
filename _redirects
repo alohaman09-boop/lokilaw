@@ -1,0 +1,23 @@
+# Netlify _redirects file for lokiesq.law
+# Place this file in the ROOT of your site folder (same level as index.html)
+# It has no file extension — the filename is literally "_redirects"
+
+# Ad landing page redirects — old URLs to new /ads/ folder
+# These preserve any existing Google Ads traffic pointing to the old URLs
+/juvenile-delinquency    /ads/juvenile-delinquency    301
+/criminal-defense-help   /ads/criminal-defense-help   301
+/drug-charges            /ads/drug-charges            301
+/dui-defense             /ads/dui-defense             301
+/estate-planning         /ads/estate-planning         301
+
+# Clean URL support — pages served without .html extension
+# These let visitors type lokiesq.law/juvenile (instead of /juvenile.html)
+/juvenile    /juvenile.html    200
+/criminal    /criminal.html    200
+/drugs       /drugs.html       200
+/dui         /dui.html         200
+/estate      /estate.html      200
+/mediation   /mediation.html   200
+
+# 404 fallback
+/*           /404.html         404
